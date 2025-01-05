@@ -15,7 +15,7 @@
 import {GoogleGenerativeAI} from '@google/generative-ai'
 import {GoogleAIFileManager} from '@google/generative-ai/server'
 
-const key = process.env.AIzaSyANaBnc9uZLnSJiI68RUXWm2DbwYq2IdPQ
+const key = process.env.VITE_GEMINI_API_KEY
 const fileManager = new GoogleAIFileManager(key)
 const genAI = new GoogleGenerativeAI(key)
 
